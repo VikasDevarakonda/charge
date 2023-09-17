@@ -1,0 +1,63 @@
+*{
+    padding: 0px;
+    background-color: rgb(251, 251, 251);
+    margin: 0px;
+}
+.body{
+    border: 1px solid rgb(212, 226, 226);
+    height:200px;
+    width: 100px;
+    border-width: 4px;
+    border-radius: 10px;
+    position: absolute;
+    top: 300px;
+    left: 750px;
+    align-items: center;
+    z-index: 1;
+    
+    /* mix-blend-mode: multiply; */
+    /* background-color: rgb(4, 4, 4); */
+}
+.level{
+    border: 1px solid rgb(212, 226, 226);
+    width: 100px;
+    height: 0%;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0;
+    padding: 0px;
+    margin: 0px;
+    translate: height 10s;
+    animation-name: charge;
+    animation-duration: 10s;
+    animation-timing-function: ease-in;
+    animation-delay: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    z-index: 2;
+   
+
+}
+
+
+#top{
+    border: 1px solid rgb(212, 226, 226);
+    height: 20px;
+    width: 40px;
+    border-radius: 5px;
+    background-color: rgb(212, 226, 226);
+    position: absolute;
+    top: 280px;
+    left: 785px;
+    z-index: 1;
+   
+}
+
+.icon{
+    position: absolute;
+    left: 795px;
+    top: 395px;
+    z-index: 3;
+    mix-blend-mode: multiply;
+    animation: blink 1s infinite ease-in-out forwards;
+}
